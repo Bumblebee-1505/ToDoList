@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.story__point_container {
+    width: max-content;
+    padding: 50px 30px 15px 30px;
+    border-radius: 30px;
+    background: rgb(249, 249, 249);
+}
+
+.story__point_content {
+    position: relative;
+    width: max-content;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border: 5px solid #96ffa6;
+    border-bottom-color: transparent;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.story__point_description {
+    text-align: center;
+}
+
+.story__point_description {
+    font-size: 20px;
+}
+
+.story__point-interval {
+    position: absolute;
+    bottom: 10%;
+    left: 18%;
+    font-size: 10px;
+}
+
+.story__point_marks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.story__point_mark {
+    width: 50px;
+    height: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.green {
+    background-color: #96ffa5;
+}
+
+.yellow {
+    background-color: rgb(237, 237, 0);
+}
+
+.red {
+    background-color: rgb(219, 23, 23);
+}

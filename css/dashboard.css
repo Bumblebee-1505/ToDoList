@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    max-width: 825px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-radius: 30px;
+    background: rgb(239, 239, 239);
+    padding: 15px 35px 0 20px;
+    gap: 25px
+}
+
+.dashboard__content {
+    width: max-content;
+    
+    
+}
+
+
+
+.dashboard__calendar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+.dashboard-shape {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: rgb(166, 166, 166);
+
+}
+
+.dashboard-month {
+    text-align: center;
+}
+

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header__navbar {
+    width: 1440px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.header__logo_link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__nav_list {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
