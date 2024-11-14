@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<?php
+require_once 'conf.php';
 
-    
-</head>
-<body>
-    <header>
-        <?php
-            include 'html/header.php';
-        ?>
-    </header>
-    
-    <main>
-        <?php
-            include 'html/main.php';
-        ?>
-    </main>
+require_once 'Router/router.php';
 
-    <footer>
-        <?php
-            include 'html/footer.php';
-        ?>
-    </footer>
-</body>
-</html>
+
+
+dispatch(url: $_SERVER['REQUEST_URI']);
