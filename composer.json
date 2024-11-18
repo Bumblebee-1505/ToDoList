@@ -1,0 +1,9 @@
+{
+    "name": "mrwagner/to-do-list",
+    "autoload": {
+        "psr-4": {
+            "Mrwagner\\ToDoList\\": "src/"
+        }
+    },
+    "require": {}
+}
