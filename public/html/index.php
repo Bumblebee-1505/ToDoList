@@ -1,7 +1,7 @@
 <?php
-require_once 'conf.php';
+require_once '../../conf.php';
 
-require_once 'Router/router.php';
+require_once '../../src/Router/router.php';
 
 
 
