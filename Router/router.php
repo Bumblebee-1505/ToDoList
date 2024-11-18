@@ -4,5 +4,5 @@
             include __DIR__ ."/../html/start.php";
         } else if($url == "/profile") {
             include __DIR__ ."/../public/html/profile.php";
-        }
+        } 
     }
