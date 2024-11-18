@@ -1,5 +1,5 @@
 <?php
-    include 'base_pages/header.php';
+include 'base_pages/header.php';
 ?>
 
 <div class="main__container">
@@ -13,5 +13,5 @@
 </div>
 
 <?php
-    include 'base_pages/footer.php';
+include 'base_pages/footer.php';
 ?>

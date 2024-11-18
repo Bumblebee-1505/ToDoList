@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<form action="" class="sign__in none">
+    <input type="text" placeholder="Имя пользователя" />
+    <input type="password" placeholder="Пароль" />
+    <p><input type="checkbox" /> Запомнить меня</p>
 
-    <link rel="stylesheet" href="css/sign in.css">
-</head>
-<body>
-    
-</body>
-</html>
+    <div class="sign__in_links">
+        <button class="login-button">Войти</button>
+        <a href="#" class="forgot-link">Забыли пароль?</a>
+    </div>
+</form>

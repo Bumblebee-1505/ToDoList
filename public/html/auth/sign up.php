@@ -1,13 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<form action="" class="sign__up ">
+    <input type="text" placeholder="Ваше имя" />
+    <input type="text" placeholder="Ваша фамилия" />
+    <input type="email" placeholder="Ваш email" />
 
-    <link rel="stylesheet" href="sign up.html">
-</head>
-<body>
-    
-</body>
-</html>
+    <input type="password" placeholder="Придумайте пароль">
+    <input type="password" placeholder="Повторите пароль">
+
+    <p>
+        <input type="checkbox"> Согласен с условиями сайта
+    </p>
+
+    <div class="sign__up_btn">
+        <button>Регистрация</button>
+    </div>
+
+</form>
