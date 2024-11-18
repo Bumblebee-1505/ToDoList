@@ -5,5 +5,18 @@
             "Mrwagner\\ToDoList\\": "src/"
         }
     },
-    "require": {}
+    "scripts": {
+        "start": "php -S localhost:8000"
+    },
+    "authors": [
+        {
+            "name": "Mrwagner",
+            "email": "akmal15051993@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "cache-dir": "./var/composer-cache",
+        "process-timeout": 0
+    }
 }
