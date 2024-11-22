@@ -12,7 +12,13 @@
         <hr>
 
         <?php
-            include 'sign';
+            include 'signIn.php';
+            include '../../css/auth/signIn.css';
+        ?>
+
+        <?php
+            include 'signUp.php';
+            include '../../css/auth/signUp.css';
         ?>
     </div>
 </div>

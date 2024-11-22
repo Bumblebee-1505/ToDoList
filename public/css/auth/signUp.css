@@ -1,0 +1,10 @@
+.sign__up {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sign__up_btn {
+    display: flex;
+    justify-content: center;
+}
