@@ -2,11 +2,11 @@
     "name": "mrwagner/to-do-list",
     "autoload": {
         "psr-4": {
-            "Mrwagner\\ToDoList\\": "src/"
+            "Src\\": "src/"
         }
     },
     "scripts": {
-        "start": "php -S localhost:8000"
+        "start": "php -S localhost:8000 public"
     },
     "authors": [
         {
@@ -14,9 +14,11 @@
             "email": "akmal15051993@gmail.com"
         }
     ],
-    "require": {},
     "config": {
         "cache-dir": "./var/composer-cache",
         "process-timeout": 0
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.64"
     }
 }
