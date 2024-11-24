@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../css/auth/auth.css">
+
 <div class="auth__container">
     <div class="auth__content">
         <ul class="auth__nav_list">

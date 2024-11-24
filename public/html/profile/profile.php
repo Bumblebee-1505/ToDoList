@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="../../css/profile/profile.css">
+
+
 <div class="profile__sections">
     <div class="profile__section">
         <div class="profile__content">

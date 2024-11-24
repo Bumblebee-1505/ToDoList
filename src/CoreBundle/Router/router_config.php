@@ -8,6 +8,5 @@ Router::add('/main', ProfileController::class, 'show');
 
 Router::add('/auth', ProfileController::class, 'show');
 
-Router::add('/profile', ProfileController::class, 'show');
+Router::add('/result', ProfileController::class, 'show');
 
-Router::add('/profile', ProfileController::class, 'show');

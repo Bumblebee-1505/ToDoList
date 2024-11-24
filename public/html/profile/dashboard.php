@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="../../css/profile/dashboard.css">
+
+
 <div class="dashboard">
     <div class="dashboard__content">
         <div class="dashboard__calendar">

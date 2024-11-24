@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="../../css/profile/storyPoint.css">
+
+
 <div class="story__point_container">
     <div class="story__point_content">
         <div class="story__point_description">

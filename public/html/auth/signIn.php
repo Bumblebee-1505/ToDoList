@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../css/auth/signIn.css">
+
 <form action="" class="sign__in none">
     <input type="text" placeholder="Имя пользователя" />
     <input type="password" placeholder="Пароль" />

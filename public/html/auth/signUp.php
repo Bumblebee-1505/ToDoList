@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../css/auth/signUp.css">
+
 <form action="" class="sign__up ">
     <input type="text" placeholder="Ваше имя" />
     <input type="text" placeholder="Ваша фамилия" />
